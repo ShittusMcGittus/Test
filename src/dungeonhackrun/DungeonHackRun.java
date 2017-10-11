@@ -93,6 +93,9 @@ public class DungeonHackRun {
                         if (pl2.health() > 0){
                             System.out.printf("%s %s %s! %s has %d health left.\n"
                                     , pl1.name(), pl1.weapon().action(), pl2.name(),pl2.name(), pl2.health());
+                        }else{
+                            System.out.printf("%s %s %s! %s is dead!\n"
+                                    ,pl1.name(), pl1.weapon().action(),pl2.name(), pl2.name());
                         }
                     }else{
                         System.out.println("Attack Failed!");
@@ -119,6 +122,9 @@ public class DungeonHackRun {
                         if (pl1.health() > 0){
                             System.out.printf("%s %s %s! %s has %d health left.\n"
                                     , pl2.name(), pl2.weapon().action(), pl1.name(),pl1.name(), pl1.health());
+                        }else{
+                            System.out.printf("%s %s %s! %s is dead!\n"
+                                    ,pl2.name(), pl2.weapon().action(),pl1.name(), pl1.name());
                         }
                     }else{
                         System.out.println("Attack Failed!");
