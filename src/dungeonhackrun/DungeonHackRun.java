@@ -4,6 +4,7 @@ import dungeonhack.*;
 import java.util.Scanner;
 
 public class DungeonHackRun {
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
